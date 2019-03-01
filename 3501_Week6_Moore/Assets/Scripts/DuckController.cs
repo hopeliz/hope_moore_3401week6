@@ -44,8 +44,12 @@ public class DuckController : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        score++;
-        scoreText.text = score.ToString();
-        pointSound.Play();
+        if (!gameOver)
+        {
+            score++;
+            scoreText.text = score.ToString();
+            pointSound.Play();
+        }
+        
     }
 }

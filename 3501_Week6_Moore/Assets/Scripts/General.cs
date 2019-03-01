@@ -10,16 +10,6 @@ public class General : MonoBehaviour {
     public Animator skyAnimator;
     public bool gameOn = false;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
     public void StartAnimation()
     {
         skyAnimator.SetTrigger("begin");

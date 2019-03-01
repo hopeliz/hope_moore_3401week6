@@ -2298,7 +2298,7 @@ MonoBehaviour:
   forkPrefab: {fileID: 1537077189032200, guid: f7ece51ab105c754e899a74bb996a6e5, type: 2}
   spawnXPosition: -1.5
   spawnYPosition: 0
-  spawnTriggerLocation: -10
+  spawnTriggerLocation: -7
 --- !u!4 &1534168955
 Transform:
   m_ObjectHideFlags: 0
